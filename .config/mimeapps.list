@@ -1,0 +1,22 @@
+[Added Associations]
+application/x-compressed-tar=org.kde.ark.desktop;
+application/x-shellscript=kitty-open.desktop;code-4.desktop;code-3.desktop;code-2.desktop;
+application/x-zerosize=code-2.desktop;code-url-handler.desktop;code-4.desktop;code-oss.desktop;
+image/gif=viewnior.desktop;
+image/jpeg=kitty-open.desktop;viewnior.desktop;
+image/png=viewnior.desktop;gimp.desktop;
+inode/symlink=fish.desktop;kitty.desktop;
+text/html=firefox.desktop;librewolf.desktop;code.desktop;
+text/plain=code-5.desktop;vim.desktop;code.desktop;
+text/x-csrc=code.desktop;
+application/x-tar=org.kde.ark.desktop;
+
+[Default Applications]
+application/x-shellscript=code-4.desktop;
+application/x-zerosize=code-oss.desktop
+inode/symlink=kitty.desktop
+text/plain=code-5.desktop;
+x-scheme-handler/discord-696343075731144724=discord-696343075731144724.desktop
+application/x-compressed-tar=org.kde.ark.desktop
+application/x-tar=org.kde.ark.desktop
+application/zip=org.kde.ark.desktop
