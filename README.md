@@ -14,4 +14,4 @@
 
 <h2>Installation:</h2>
 <h3>Install the dependencies:</h3>
-<p>```yay -Syu swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl ```</p>
+```yay -Syu swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl ```
