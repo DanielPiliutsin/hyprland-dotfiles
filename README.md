@@ -10,4 +10,3 @@
   <li>Lock Screen ~> Swaylock 🔒</li>
   <li>File Manager ~> Thunar ⚡</li>
 </ul>
-This is inline code: `print("Hello, World!")`
