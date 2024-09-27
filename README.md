@@ -11,3 +11,5 @@
   <li>Wallpaper Daemon ~> SWWW 🌆</li>
   <li>File Manager ~> Thunar ⚡</li>
 </ul>
+
+<h2>Installation:</h2>
