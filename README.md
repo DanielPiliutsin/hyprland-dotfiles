@@ -27,7 +27,7 @@ archinstall
  <li>Audio - Pipewire</li>
  <li>Network Configuration - Network Manager</li>
  <li>Optional Repositories - Multilib</li>
- <li>For the other options, they are up to you</li>
+ <li>For the other options, they are up to you (search them up if you dont know what they are for)</li>
 </ul>
 <p>Then Click Install!</p>
 <h3>Install yay:</h3>
