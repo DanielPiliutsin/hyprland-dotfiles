@@ -13,6 +13,15 @@
 </ul>
 
 <h2>Installation:</h2>
+<h3>Install yay</h3>
+
+```
+sudo pacman -S --needed git base-devel
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si
+```
+
 <h3>Install the dependencies:</h3>
 
 ```
