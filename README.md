@@ -25,5 +25,14 @@ makepkg -si
 <h3>Install the dependencies:</h3>
 
 ```
-yay -Syu swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop
+yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop
+```
+
+<h3>Copy the configuration files:</h3>
+
+```
+git clone https://github.com/DanielPiliutsin/hyprland-dotfiles
+cd hyprland-dotfiles
+cp .config $HOME/.config
+reboot
 ```
