@@ -13,7 +13,7 @@
 </ul>
 
 <h2>Installation:</h2>
-<h3>Install yay</h3>
+<h3>Install yay:</h3>
 
 ```
 sudo pacman -S --needed git base-devel
