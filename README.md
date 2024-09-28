@@ -14,15 +14,15 @@
 
 <h2>Installation:</h2>
 <h3>Install Hyprland:</h3>
-<p><i>note: this step assumes you are booted into arch linux ISO with a blank drive, follow a seperate tutorial when messing with the drives selection</i></p>
+<p><i>WARNING: this step assumes you are booted into arch linux ISO with a single blank drive, follow a seperate tutorial when messing with the drives selection if it is not applicable to you!</i></p>
 
 ```
 archinstall
 ```
 <p><b>follow the setup instructions and select the following: </b></p>
 <ul>
- <li>Drivers - Nvidia Proprietary</li> 
- <li>Profile - Desktop - Hyprland</li>
+ <li>Drive(s) - ...use a best-effort defualt partition layout | READ WARNING!</li> 
+ <li>Profile - Desktop - Hyprland - Nvidia (Proprietary)</li>
  <li>Audio - Pipewire</li>
  <li>Network Configuration - Network Manager</li>
  <li>Optional Repositories - Multilib</li>
