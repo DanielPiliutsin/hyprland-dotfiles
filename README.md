@@ -14,7 +14,7 @@
 
 <h2>Installation:</h2>
 <h3>Install Hyprland:</h3>
-<p><i>note: this step assumes you are booted into arch linux ISO with a blank drive, be extra cautious when trying to dual boot</i></p>
+<p><i>note: this step assumes you are booted into arch linux ISO with a blank drive, follow a seperate tutorial when messing with the drives selection</i></p>
 
 ```
 archinstall
