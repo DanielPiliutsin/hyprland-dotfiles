@@ -1,9 +1,4 @@
-// KED'S WAYBAR CONFIG
-// MAIN CONFIG FILE [CONFIG]
-// (C) 2023 Kedislav - File under GNU GPL v3.0
-/////////////////////////////////////////////////////////////////////
-// Scripts and custom modules are saved in the "scripts" directory.
-/////////////////////////////////////////////////////////////////////
+// DANIELPILIUTSIN.GITHUB.IO
 
 {
     "layer": "top",
@@ -11,9 +6,9 @@
     "height": 48,
     "margin": "0, 0, 0, 0",
 
-    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl", "custom/cava"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "backlight", "custom/notification", "network", "custom/powermenu"],
+    "modules-right": ["tray", "pulseaudio", "network", "custom/powermenu"],
 
     // MODULE CONFIG
 
@@ -21,27 +16,6 @@
         "format": "{icon} {percent}%",
         "format-icons": ["","","","", "", "", ""],
         "min-length": 7
-    },
-
-    "custom/notification": {
-        "tooltip": false,
-        "format": "{icon}",
-        "format-icons": {
-            "notification": "<span foreground='red'><sup></sup></span>",
-            "none": "",
-            "dnd-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-none": "",
-            "inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "inhibited-none": "",
-            "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
-            "dnd-inhibited-none": ""
-        },
-        "return-type": "json",
-        "exec-if": "which swaync-client",
-        "exec": "swaync-client -swb",
-        "on-click": "swaync-client -t -sw",
-        "on-click-right": "swaync-client -d -sw",
-        "escape": true
     },
 
     "battery": {
@@ -56,29 +30,6 @@
         "format-icons": [" ", " ", " ", " ", " "]
     },
 
-    "hyprland/window": {
-        "max-length": 40,
-        "format": "{}",
-        "separate-outputs": true
-    },
-
-    "hyprland/language": {
-        "format": "{}",
-        "format-ru": "ru",
-        "format-en": "en",
-        "format-ua": "ua",
-    },
-
-    "bluetooth": {
-        "format-disabled": "",
-        "format-off": "",
-        "format-on": "",
-        "format-connected": " {device_alias}",
-        "format-connected-battery": " {device_alias}  {device_battery_percentage}%",
-        "on-click": "connman-gtk",
-        "tooltip": false
-    },
-
     "clock": {
         "tooltip": false,
         "format": "{:%b %d %I:%M}"
@@ -87,34 +38,6 @@
     "clock#calendar": {
         "tooltip": false,
         "format": "{:%b %d}"
-    },
-
-    "cpu": {
-        "interval": 30,
-        "format": " {usage}%",
-        "min-length": 7
-    },
-
-    "disk": {
-        "interval": 30,
-        "format": " {percentage_used}%",
-        "path": "/"
-    },
-
-    "keyboard-state": {
-        //"numlock": true,
-        "capslock": true,
-        "format": "{name} {icon} ",
-        "format-icons": {
-            "locked": " ",
-            "unlocked": ""
-        },
-    },
-
-    "memory": {
-        "interval": 30,
-        "format": " {}%",
-        "min-length": 7
     },
 
     "network": {
@@ -155,29 +78,16 @@
         "active-only": false,
         "all-outputs": true,
         "disable-scroll": false,
-        "on-scroll-up": "hyprctl dispatch workspace -1",
-        "on-scroll-down": "hyprctl dispatch workspace +1",
+        "on-scroll-up": "python ~/.config/hypr/scripts/next-workspace.py",
+        "on-scroll-down": "hyprctl dispatch workspace -1",
 		"format": "{icon}",
 		"on-click": "activate",
 		"format-icons": {
-//			"1": "一",
-//			"2": "二",
-//			"3": "三",
-//			"4": "四",
-//			"5": "五",
 			"urgent": "",
 			"active": "",
 			"default": "󰧞",
     "sort-by-number": true
     },
-    },
-
-    "temperature": {
-	    "tooltip": false,
-	    "interval": 30,
-	    "critical-threshold": 70,
-	    "format": "{icon} {temperatureC}",
-	    "format-icons": ["", "", "", "", ""]
     },
 
     // CUSTOM MODULES
@@ -208,5 +118,23 @@
         "Playing": "<span foreground='#64D3FF'>󰒮 󰐌 󰒭</span>",
         "Paused": "<span foreground='#928374'>󰒮 󰏥 󰒭</span>"
         },
-    }
+    },
+    
+    "custom/cava": {
+        "exec": "~/.config/waybar/scripts/cava.sh",
+        "format": "{}",
+        "format-icons": [
+          "<span>▁</span>",
+          "<span>▂</span>",
+          "<span>▃</span>",
+          "<span>▄</span>",
+          "<span>▅</span>",
+          "<span>▆</span>",
+          "<span>▇</span>",
+          "<span>█</span>",
+        ],
+        "on-click": "playerctl play-pause",
+        "on-click-right": "bash $HOME/.config/waybar/scripts/cava-launch-kill.sh",
+        "on-click-middle": "glava",
+      }
 }
