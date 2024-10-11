@@ -42,7 +42,7 @@ makepkg -si
 <h3>Install the dependencies:</h3>
 
 ```
-yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap
+yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot
 ```
 
 <h3>Copy the configuration files:</h3>
