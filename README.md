@@ -61,3 +61,5 @@ mkdir $HOME/.wallpapers
 ```
 reboot
 ```
+
+<h2>Helpful Community Tutorials:</h2>
