@@ -7,6 +7,8 @@
   <li>Terminal Emulator ~> Kitty 😺 (with Fish 🐟)</li>
   <li>Top-bar ~> Waybar ⏲</li>
   <li>Logout Screen ~> Wlogout 🖥️</li>
+
+    Gnome Virtual File System
   <li>Lock Screen ~> Swaylock 🔒</li>
   <li>Wallpaper Daemon ~> SWWW 🌆</li>
   <li>File Manager ~> Thunar ⚡</li>
@@ -42,7 +44,7 @@ makepkg -si
 <h3>Install the dependencies:</h3>
 
 ```
-yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher
+yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs
 ```
 
 <h3>Copy the configuration files:</h3>
