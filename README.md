@@ -63,3 +63,5 @@ reboot
 ```
 
 <h2>Helpful Community Tutorials:</h2>
+<p><a href="https://www.jasonross.dev/create-bootable-usb-arch-installation-from-windows/">Installing Arch Linux Onto USB</a></p>
+<p><a href="https://www.techadvisor.com/article/728456/how-to-boot-from-usb.html">Booting From USB</a></p>
