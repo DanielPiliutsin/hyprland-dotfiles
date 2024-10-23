@@ -14,7 +14,7 @@
 
 <h2>Installation:</h2>
 <h3>Install Hyprland:</h3>
-<p><i>Note: If you are using wifi, you will need to follow a seperate tutorial on connecting in order for archinstall to work properly</i></p>
+<p><i>Note: If you are using wifi, you will need to follow a <a href="https://wiki.archlinux.org/title/Iwd">seperate tutorial</a> on connecting in order for archinstall to work properly</i></p>
 <p><i>WARNING: This step assumes you are booted into arch linux ISO with a single blank drive. Follow a seperate tutorial when messing with the drive(s) selection if this is not applicable to you! I am not responsible for any damages caused by improper drive setup!</i></p>
 
 ```
