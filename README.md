@@ -48,7 +48,7 @@ yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylo
 <h3>Copy the configuration files:</h3>
 
 ```
-git clone https://github.com/DanielPiliutsin/hyprland-dotfiles
+git clone --recursive https://github.com/DanielPiliutsin/hyprland-dotfiles
 cd hyprland-dotfiles
 cp .config $HOME/.config
 mkdir $HOME/.wallpapers
