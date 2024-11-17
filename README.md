@@ -1,5 +1,5 @@
 <i><h1>Minimal Blue</h1></i>
-<img src="https://raw.githubusercontent.com/DanielPiliutsin/hyprland-dotfiles/refs/heads/main/git/assests/arch.png" width="400" height="400">
+<img src="https://raw.githubusercontent.com/DanielPiliutsin/hyprland-dotfiles/refs/heads/main/git/assests/arch_noglow.png">
 <p>⚠️ Nvidia Only! ⚠️</p>
 <h2>Desktop Packages:</h2>
 <ul>
