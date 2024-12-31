@@ -15,15 +15,15 @@
 
 <h2>Installation:</h2>
 <h3>Install Hyprland:</h3>
-<p><i>Note: If you are using wifi, you will need to follow a <a href="https://wiki.archlinux.org/title/Iwd">seperate tutorial</a> before using archinstall.</i></p>
-<p><i>WARNING: This step assumes you are booted into arch linux ISO with a single blank drive. Follow a seperate tutorial when messing with the drive(s) selection if this is not applicable to you! I am not responsible for any damages caused by improper drive setup!</i></p>
+<p><i>Note: If you are using wifi, you will need to follow a <a href="https://wiki.archlinux.org/title/Iwd">separate tutorial</a> before using archinstall.</i></p>
+<p><i>WARNING: This step assumes you are booted into arch linux ISO with a single blank drive. Follow a separate tutorial when messing with the drive(s) selection if this is not applicable to you! I am not responsible for any damages caused by improper drive setup!</i></p>
 
 ```
 archinstall
 ```
 <p><b>follow the setup instructions and select the following: </b></p>
 <ul>
- <li>Drive(s) - ...use a best-effort defualt partition layout | READ WARNING!</li> 
+ <li>Drive(s) - ...use a best-effort default partition layout | READ WARNING!</li> 
  <li>Profile - Desktop - Hyprland - Nvidia (Proprietary)</li>
  <li>Audio - Pipewire</li>
  <li>Network Configuration - Network Manager</li>
