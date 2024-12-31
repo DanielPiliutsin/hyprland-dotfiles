@@ -59,8 +59,8 @@ cp -rTi .wallpapers $HOME/.wallpapers
 ```
 reboot
 ```
-<h2>Other:</h2>
-<p>Coming Soon...</p>
+# <h2>Other:</h2>
+# <p>Coming Soon...</p>
 
 <h2>Helpful Community Tutorials:</h2>
 <p><a href="https://www.jasonross.dev/create-bootable-usb-arch-installation-from-windows/">Installing Arch Linux Onto USB</a></p>
