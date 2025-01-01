@@ -1,5 +1,5 @@
 <i><h1>Minimal Blue</h1></i>
-<img src="https://raw.githubusercontent.com/DanielPiliutsin/hyprland-dotfiles/refs/heads/main/git/assests/2024-12-31-180150_hyprshot.png"> 
+<img src="https://github.com/DanielPiliutsin/hyprland-dotfiles/blob/main/git/assests/display.gif"> 
 <p>⚠️ Nvidia Only! ⚠️</p>
 <h2>Desktop Packages:</h2>
 <ul>
