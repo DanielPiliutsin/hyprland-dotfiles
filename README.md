@@ -43,7 +43,6 @@ makepkg -si
 
 ```
 yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs hyprfreeze android-udev gvfs-mtp libmtp
-
 ```
  
 <h3>Copy the configuration files:</h3>
