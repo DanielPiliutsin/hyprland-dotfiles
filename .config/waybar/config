@@ -78,8 +78,8 @@
         "active-only": false,
         "all-outputs": true,
         "disable-scroll": false,
-        "on-scroll-up": "python ~/.config/hypr/scripts/next-workspace.py",
-        "on-scroll-down": "hyprctl dispatch workspace -1",
+        "on-scroll-up": "python $HOME/.config/hypr/scripts/next-workspace.py",
+        "on-scroll-down": "hyprctl dispatch workspace e-1",
 		"format": "{icon}",
 		"on-click": "activate",
 		"format-icons": {
@@ -136,5 +136,7 @@
         "on-click": "playerctl play-pause",
         "on-click-right": "bash $HOME/.config/waybar/scripts/cava-launch-kill.sh",
         "on-click-middle": "glava",
+        "on-scroll-up": "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 1%+",
+        "on-scroll-down": "wpctl set-volume -l 1.4 @DEFAULT_AUDIO_SINK@ 1%-"
       }
 }
