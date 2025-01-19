@@ -54,6 +54,13 @@ cp -rTi .config $HOME/.config
 cp -rTi .wallpapers $HOME/.wallpapers
 ```
 
+<h3>Install and Update Plugins:</h3>
+
+```
+hyprpm update
+hyprpm add https://github.com/KZDKM/Hyprspace
+```
+
 <h3>Reboot:</h3>
 
 ```
