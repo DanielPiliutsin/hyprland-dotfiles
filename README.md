@@ -44,6 +44,11 @@ makepkg -si
 ```
 yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs hyprfreeze android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector
 ```
+<h3>Enable the services:</h3>
+
+```
+sudo systemctl enable --now reflector.timer
+```
  
 <h3>Copy the configuration files:</h3>
 
