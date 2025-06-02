@@ -33,6 +33,7 @@ archinstall
 <h3>Install Paru:</h3>
 
 ```
+sudo pacman -Syu
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
