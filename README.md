@@ -30,19 +30,19 @@ archinstall
  <li>For the other options, they are up to you <b>(search them up if you dont know what they are for!)</b></li>
 </ul>
 <p>Then Click Install!</p>
-<h3>Install yay:</h3>
+<h3>Install Paru:</h3>
 
 ```
-sudo pacman -S --needed git base-devel
-git clone https://aur.archlinux.org/yay.git
-cd yay
+sudo pacman -S --needed base-devel
+git clone https://aur.archlinux.org/paru.git
+cd paru
 makepkg -si
 ```
 
 <h3>Install the dependencies:</h3>
 
 ```
-yay -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs hyprfreeze android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector
+paru -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs hyprfreeze android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector
 ```
 <h3>Enable the services:</h3>
 
