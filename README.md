@@ -33,7 +33,7 @@ archinstall
 <h3>Install Paru:</h3>
 
 ```
-sudo pacman -Syu #recommended to alleviate package mismatch issues 
+sudo pacman -Syu # Update system first to avoid potential package mismatch issues
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
