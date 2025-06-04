@@ -30,10 +30,15 @@ archinstall
  <li>For the other options, they are up to you <b>(search them up if you dont know what they are for!)</b></li>
 </ul>
 <p>Then Click Install!</p>
+<h3>Update the System:</h3>
+
+```
+sudo pacman -Syu
+```
+
 <h3>Install Paru:</h3>
 
 ```
-sudo pacman -Syu # Update system first to avoid potential package mismatch issues
 sudo pacman -S --needed base-devel
 git clone https://aur.archlinux.org/paru.git
 cd paru
@@ -45,13 +50,13 @@ makepkg -si
 ```
 paru -Syu git python swww thunar kitty waybar rofi rofi-emoji fish udiskie swaylock wlogout playerctl nerd-fonts qt5ct neofetch btop firefox normcap hyprshot cava appimagelauncher gvfs hyprfreeze android-udev usbmuxd gvfs-mtp libmtp blueberry-wayland ufraw-thumbnailer webp-pixbuf-loader hyprpicker wtype reflector imagemagick
 ```
-<h3>Enable the services:</h3>
+<h3>Enable the Services:</h3>
 
 ```
 sudo systemctl enable --now reflector.timer
 ```
  
-<h3>Copy the configuration files:</h3>
+<h3>Copy the Configuration Files:</h3>
 
 ```
 git clone --recursive https://github.com/DanielPiliutsin/hyprland-dotfiles
