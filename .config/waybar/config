@@ -99,7 +99,7 @@
     },
 
     "custom/powermenu": {
-        "format": " ",
+        "format": "󰊠",
         "on-click": "wlogout",
         "on-click-right": "wlogout",
         "tooltip": false
