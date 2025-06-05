@@ -8,7 +8,7 @@
 
     "modules-left": ["custom/launcher", "hyprland/workspaces", "custom/playerctl", "custom/cava"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "network", "custom/powermenu"],
+    "modules-right": ["tray", "pulseaudio", "network", "battery", "custom/powermenu"],
 
     // MODULE CONFIG
 
@@ -93,13 +93,13 @@
     // CUSTOM MODULES
 
      "custom/launcher": {
-        "format": "",
+        "format": "󰊠",
         "on-click": "killall rofi || rofi -show",
         "tooltip": false
     },
 
     "custom/powermenu": {
-        "format": "󰊠",
+        "format": " ",
         "on-click": "wlogout",
         "on-click-right": "wlogout",
         "tooltip": false
